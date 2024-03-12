@@ -26,7 +26,7 @@ The variables will be `json_encode()` into string value and put it to Cloudwatch
 
 ## Composer install
 
-`composer require elleryleung/custom-cloudwatch-logger`
+`composer require elleryleung/custom-cloudwatch-logger:dev-main`
 
 ## Notes
 - I haven't put it on composer [Packagist](https://packagist.org/), you would not find it there.
