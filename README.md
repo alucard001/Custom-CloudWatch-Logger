@@ -13,6 +13,7 @@ The variables will be `json_encode()` into string value and put it to Cloudwatch
 
 ## Notes
 - I haven't put it on composer [Packagist](https://packagist.org/), you would not find it there.
+  - Updated:  I put it on Packagist
 - Make sure you have necessary permission to create loggroup and logstream.
 - If the code cannot create either loggroup or logstream, a tradition `error_log` function is used to log this event
 - By default the log group name is `PHPApplicationErrors` and log stream name in the log group is `ErrorLogStream`.
