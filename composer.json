@@ -1,0 +1,21 @@
+{
+    "name": "elleryleung/custom-cloudwatch-logger",
+    "description": "Write error log (both in string, array and Exception format) to AWS Cloudwatch.",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "aws/aws-sdk-php": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elleryleung\\CustomCloudwatchLogger\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "elleryleung"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
